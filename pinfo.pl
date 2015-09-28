@@ -1,17 +1,5 @@
 #!/usr/bin/perl
 
-#@a1=(0..9);
-#for $a (@a1) {
-#       print "select * from atp_default_policy_00$a where status = 1 and fare_source = 200008  union all \n";
-#}
-#@a1=(96..99);
-#for $a (@a1) {
-#       print "select * from atp_default_policy_0$a where status = 1 and fare_source = 200008  union all \n";
-#}
-#@a1=(100..127);
-#for $a (@a1) {
-#       print "select * from atp_default_policy_$a where status = 1 and fare_source = 200008  union all \n";
-#}
 use JSON;
 use LWP::Simple;
 use HTML::TreeBuilder::XPath;
